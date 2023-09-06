@@ -26,6 +26,8 @@ function createMarkup(arr) {
 }
 
 function handleProductClick(event) {
+  event.preventDefault();
+
   if (event.target === event.currentTarget) {
     return;
   }
